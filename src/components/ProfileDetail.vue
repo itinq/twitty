@@ -1,6 +1,5 @@
 <template>
   <div class="ui segment">
-    {{ profile }}
     <img class="ui circular image" :src="profile.photo" v-if="profile.photo">
     <h4>Name: {{ profile.name | toUpper }}</h4>
     <h4>Description: {{ profile.description }}</h4>

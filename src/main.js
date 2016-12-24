@@ -45,10 +45,6 @@ Vue.filter('fromNow', (value) => {
   return moment(value).fromNow()
 })
 
-Vue.filter('removeNullProps', function (object) {
-  return _.reject(object, (value) => value === null)
-})
-
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
