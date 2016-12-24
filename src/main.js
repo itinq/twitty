@@ -4,7 +4,6 @@ import Vue from 'vue'
 import router from './router'
 import firebase from 'firebase'
 import moment from 'moment'
-import _ from 'lodash'
 
 import '!script!jquery/dist/jquery.min.js'
 import '!script!semantic-ui-css/semantic.min.js'
